@@ -88,7 +88,7 @@ def train():
                                       validation_data=mobilenet_val_data,
                                       validation_steps=len(mobilenet_val_data))
     
-    mobilenet_model.save("./models/mobileNet/1")
+    mobilenet_model.save("./models/MobileNet/1")
 
 
 if __name__ == "__main__":
